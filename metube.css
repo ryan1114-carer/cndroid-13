@@ -1,0 +1,80 @@
+/* 確保 metube icon、文字和搜尋+通知按鈕在同一行並置中對齊 */
+
+header {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    position: absolute;
+
+    top: 0;
+
+    width: 100%;
+
+    background: white;
+
+    padding: 10px 0;
+
+}
+
+header img, header h3, header button {
+
+    margin: 0 10px;
+
+}
+
+/* 讓底部的五顆按鈕置底並置中對齊 */
+
+.footer {
+
+    position: fixed;
+
+    bottom: 0;
+
+    width: 100%;
+
+    background: white;
+
+    display: flex;
+
+    justify-content: center;
+
+    padding: 10px 0;
+
+}
+
+.footer button {
+
+    background: none;
+
+    border: none;
+
+    font-size: 24px;
+
+    margin: 0 10px;
+
+}
+
+/* 讓影片區的圖片圓角，並置中標題與圖片 */
+
+.video-container {
+
+    text-align: center;
+
+    margin: 20px 0;
+
+}
+
+.video-container img {
+
+    border-radius: 15px;
+
+    display: block;
+
+    margin: 0 auto;
+
+}
+
